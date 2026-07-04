@@ -18,7 +18,7 @@ services:
         condition: service_healthy
     command: celery -A tasks worker --loglevel=info
     healthcheck:
-      test: ["CMD", "celery", "celery -A tasks inspect ping"]
+      test: ["CMD-SHELL", "celery", "celery -A tasks inspect ping"]
       interval: 3s
       timeout: 3s
 
