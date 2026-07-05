@@ -1,4 +1,4 @@
-# Distributed Docker Cluster
+# Containerised Parallel Compute Cluster
 A distributed Docker container cluster for experimenting with distributed computing and parallel workloads using Docker Compose, Celery, and Redis.
 
 ## Problem statement
