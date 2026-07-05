@@ -1,4 +1,4 @@
-# Single worker computation logs
+# A Single worker compute log
 
 ```
 (.venv) PS C:\Users\himmat\Desktop\2026\coding\distributed-docker-cluster> docker compose up --build --watch

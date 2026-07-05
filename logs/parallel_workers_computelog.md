@@ -1,4 +1,4 @@
-# 4 workers computation logs
+# 4 Parallel workers compute log
 
 ```txt
 (.venv) PS C:\Users\himmat\Desktop\2026\coding\distributed-docker-cluster> docker compose up --build --watch --scale worker=4
