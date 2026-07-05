@@ -8,8 +8,6 @@ CHUNK_SIZE = 500
 if __name__ == "__main__":
     print("\n\n[Producer] Dispatching tasks...")
 
-    # input_array = np.random.randint(low=1, high=10000, size=10000).tolist()
-
     start_time = time.time()
 
     chunks = [
